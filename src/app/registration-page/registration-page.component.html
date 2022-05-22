@@ -1,0 +1,106 @@
+
+<body>
+    <form>
+      <div class="container">
+<h1 style="text-align: center">Registration Form</h1>
+
+<div class="row">
+  <div class="col">
+    <label for="lname">Last Name</label>
+<input [(ngModel)]="userdata.userlname" class="form-control" name="lname"
+paceholder="Enter your firstname">
+  </div>
+  <div class="col">
+<label for="fname">Fist Name</label>
+<input [(ngModel)]="userdata.userfname" class="form-control" name="fname"
+paceholder="Enter your lastname">
+  </div>
+</div>
+
+
+<div class="row">
+  <div class="col">
+    <label for="address">Address</label>
+<textarea [(ngModel)]="userdata.useraddress" class="form-control" name="address"
+paceholder="Enter your address" type="text"></textarea>
+  </div>
+  <div class="col">
+    <label for="city">City</label>
+<input [(ngModel)]="userdata.usercity" class="form-control" name="city"
+paceholder="Enter your city">
+  </div>
+</div>
+
+<div class="row">
+  <div class="col">
+    <label for="state">State</label>
+    <input [(ngModel)]="userdata.userstate" class="form-control" name="State"
+    paceholder="Enter your state">
+  </div>
+  <div class="col">
+<label for="Zip">Zip/Postal Code</label>
+<input [(ngModel)]="userdata.userzipcode" class="form-control" name="code"
+paceholder="Enter your zipcode">
+  </div>
+</div>
+<div class="row">
+  <div class="col">
+<label for="country">Country</label>
+<input [(ngModel)]="userdata.usercountry" class="form-control" name="cty"
+paceholder="Enter your country">
+  </div>
+  <div class="col">
+<label for="phonenumber">Phone (Country Code, Area Code, Number)</label>
+<input [(ngModel)]="userdata.userphonenumber" class="form-control" name="pnum"
+paceholder="Enter your phone number">
+  </div>
+</div>
+
+
+
+<div class="row">
+  <div class="col">
+<label for="email">E-mail</label>
+<input [(ngModel)]="userdata.useremail" class="form-control" name="email"
+paceholder="Enter your email">
+  </div>
+  <div class="col">
+
+<label for="birthdate">Birth Date</label>
+<input [(ngModel)]="userdata.userbirthdate" class="form-control" name="bdate"
+paceholder="Enter your date of birth">
+  </div>
+</div>
+
+<div class="row">
+  <div class="col">
+<label for="gender">Gender</label>
+<input [(ngModel)]="userdata.usergender" class="form-control" name="gender"
+paceholder="Enter your gender">
+  </div>
+  <div class="col">
+    <label for="startingdate">Starting Date</label>
+<input [(ngModel)]="userdata.userstartingdate" class="form-control" name="sdate"
+paceholder="Enter your starting date">
+  </div>
+</div>
+
+
+<div class="row">
+  <div class="col">
+    <label for="comments">Comments/Questions</label>
+<textarea [(ngModel)]="userdata.usercomments" class="form-control" name="comments"
+paceholder="Enter your comments and questions"></textarea>
+  </div>
+</div>
+
+<div style="text-align: center">
+    
+<button (click)="save()" class="btn btn-primary">Submit</button>
+<!-- <button   (click)="save()" class="btn btn-primary">Clear This Form</button> -->
+</div>
+
+      </div>
+
+</form>
+</body>
