@@ -8,6 +8,8 @@ import { RegistrationPageComponent } from './registration-page/registration-page
 import { HomePageComponent } from './home-page/home-page.component';
 import { UsersPageComponent } from './users-page/users-page.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {HttpClientModule} from '@angular/common/http';
+
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatCardModule } from '@angular/material/card';@NgModule({
@@ -25,7 +27,9 @@ import { MatCardModule } from '@angular/material/card';@NgModule({
     BrowserAnimationsModule,
      MatFormFieldModule,
     MatInputModule,
-    MatCardModule
+    MatCardModule,
+    HttpClientModule
+
   ],
 
 

@@ -1,0 +1,19 @@
+{
+    "users":[
+        {
+            "lname": "Annigeri",
+            "fname": "Dhanush",
+            "address": "Bangalore",
+            "city": "Bangalore",
+            "state": "Karnataka",
+            "code": 576230,
+            "country": "India",
+            "phone": 8277721239,
+            "email": "dhanushannigeri1@gmail.com",
+            "birthdate":"25/10/1997",
+            "gender": "Male",
+            "startingdate":"25/10/1997" ,
+            "comments": "NA"
+        }
+    ]
+}
